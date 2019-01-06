@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="33" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+            <CompundBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="labvrsta" min="-2" pref="60" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblvrsta" min="-2" pref="101" max="-2" attributes="0"/>
+                          <EmptySpace pref="155" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labtip" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              <Component id="labmarka" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblmarka" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                              <Component id="lbltip" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="labvrstamotora" alignment="0" pref="97" max="32767" attributes="1"/>
+                              <Component id="labprijedjenikm" alignment="0" max="32767" attributes="1"/>
+                              <Component id="labsnaga" alignment="0" max="32767" attributes="1"/>
+                              <Component id="labvrstagoriva" alignment="0" max="32767" attributes="1"/>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblkm" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                      <Component id="lblvrstamotora" alignment="0" min="-2" pref="113" max="-2" attributes="0"/>
+                      <Component id="lblsnaga" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="lblvrstagoriva" min="-2" pref="160" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labmarka" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblmarka" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblvrstamotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labvrstamotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labvrsta" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblvrsta" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblkm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labprijedjenikm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labtip" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbltip" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblsnaga" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labsnaga" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblvrstagoriva" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labvrstagoriva" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="438" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblvrstagoriva">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel10"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labvrstamotora">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="vrsta motora"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblkm">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel9"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labvrstagoriva">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="vrsta goriva"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labsnaga">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="snaga(kW)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblmarka">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblsnaga">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblvrsta">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbltip">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labprijedjenikm">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="prijedjeni km"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblvrstamotora">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labvrsta">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="vrsta"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labmarka">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="marka"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labtip">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="tip"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
